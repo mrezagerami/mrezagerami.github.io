@@ -86,7 +86,7 @@ To publish a new video post on the blog page, open `blog.html` and append a new 
 {
   id: 'unique-video-slug',
   title: "Your Video Title Here",
-  category: "Post-Quantum Cryptography", // 'Post-Quantum Cryptography' | 'NIST Standards' | 'Quantum Readiness' | 'AI Security'
+  category: "Post-Quantum Cryptography", // 'Network Security' | 'Post-Quantum Cryptography' | 'NIST Standards' | 'Quantum Readiness' | 'AI Security'
   date: "2026-04-01",
   duration: "15 min watch",
   embedUrl: "https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID",

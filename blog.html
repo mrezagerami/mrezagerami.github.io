@@ -364,6 +364,7 @@
           </div>
           <div class="filter-pills" id="filterPills">
             <button class="pill active" onclick="setCategory('All', this)">All Posts</button>
+            <button class="pill" onclick="setCategory('Network Security', this)">Network Security</button>
             <button class="pill" onclick="setCategory('Post-Quantum Cryptography', this)">PQC Algorithms</button>
             <button class="pill" onclick="setCategory('NIST Standards', this)">NIST Standards</button>
             <button class="pill" onclick="setCategory('Quantum Readiness', this)">Quantum Readiness</button>
@@ -397,6 +398,17 @@
   <script>
     // --- Data Model for YouTube Video Blog Posts ---
     const postsData = [
+      {
+        id: 'cnd-01-cyber-risk-architecture',
+        title: "The Architecture of Cyber Risk: Assets, Threats, and Vulnerabilities | CND Module 01",
+        category: "Network Security",
+        date: "2026-08-15",
+        duration: "18 min watch",
+        embedUrl: "https://www.youtube.com/embed/XKzJwhe5eNY",
+        videoUrl: "https://www.youtube.com/watch?v=XKzJwhe5eNY",
+        excerpt: "Welcome to Module 01 of our Certified Network Defender (CND) educational series. We systematically dissect the core pillars of cyber risk: classifying assets, analyzing threat origins, profiling threat actors, evaluating vulnerabilities, and defining the formal Risk Equation (Risk = Asset + Threat + Vulnerability).",
+        tags: ["CND", "Cyber Risk", "Network Security", "Risk Management", "Threat Intelligence"]
+      },
       {
         id: 'quantum-break',
         title: "Quantum Computers Won't Break Everything—But They Will Break...",
